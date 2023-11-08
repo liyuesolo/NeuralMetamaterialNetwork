@@ -1,0 +1,9 @@
+The data per row should follow this format
+first : #1 to #of tiling parameters
+then : Green_strain(0, 0) Green_strain(1, 1) Green_strain(0, 1)
+then : secondPK_stress(0, 0) secondPK_stress(1, 1) secondPK_stress(0, 0)
+then : energy density
+then : direction in theta, strain, strain in the orthogonal direction
+then : residual norm in simulation
+
+Everything after energy density are used for debugging purpose
